@@ -1,0 +1,58 @@
+{
+  "_readme": [
+    "This file locks the dependencies of your project to a known state",
+    "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+    "This file is @generated automatically"
+  ],
+  "content-hash": "4bd73a8aef87bfb7ef021b8bd6c64659",
+  "packages": [
+    {
+      "name": "hktr92/std-ext",
+      "version": "v1.0.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/hktr92/std-ext.git",
+        "reference": "71310fefdb2e97d82ccc0cf93e618a133385c07c"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/hktr92/std-ext/zipball/71310fefdb2e97d82ccc0cf93e618a133385c07c",
+        "reference": "71310fefdb2e97d82ccc0cf93e618a133385c07c",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">7.4.0"
+      },
+      "type": "library",
+      "autoload": {
+        "psr-4": {
+          "Std\\Ext\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Petru Szemereczki",
+          "email": "petru@xtremeweb.ro"
+        }
+      ],
+      "description": "Helper functions regarding PHP extensions",
+      "time": "2020-07-01T13:06:30+00:00"
+    }
+  ],
+  "packages-dev": [],
+  "aliases": [],
+  "minimum-stability": "stable",
+  "stability-flags": [],
+  "prefer-stable": false,
+  "prefer-lowest": false,
+  "platform": {
+    "php": ">7.4.0",
+    "ext-mbstring": "*"
+  },
+  "platform-dev": [],
+  "plugin-api-version": "1.1.0"
+}

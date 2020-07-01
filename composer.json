@@ -1,0 +1,22 @@
+{
+  "name": "hktr92/std-multibyte",
+  "description": "Multibyte helper for PHP",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Petru Szemereczki",
+      "email": "petru.office92@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Std\\Multibyte\\": "src"
+    }
+  },
+  "require": {
+    "php": ">7.4.0",
+    "ext-mbstring": "*",
+    "hktr92/std-ext": "^1.0"
+  }
+}
